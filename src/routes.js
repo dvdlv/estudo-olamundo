@@ -4,8 +4,6 @@ import SobreMim from "./paginas/SobreMim";
 import Menu from "./components/Menu";
 
 console.log(window.location)
-
-const pagina = window.location.pathname === '/' ? <Inicio/> : <SobreMim/>
  
 function AppRoutes() {
   return(
