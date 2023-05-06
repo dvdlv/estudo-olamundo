@@ -1,7 +1,7 @@
 import styles from './Post.module.css'
 
 
-export default function Post ({ post }) {
+export default function PostCard ({ post }) {
 
     console.log(post.id);
     return (
