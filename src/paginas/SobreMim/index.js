@@ -11,7 +11,7 @@ export default function SobreMim() {
 
       </h3>
 
-      <img src={fotoSobreMim} className={styles.fotoSobreMim} />
+      <img src={fotoSobreMim} className={styles.fotoSobreMim} alt="Imagem de David" />
       <p className={styles.paragrafo}>
         Oi, tudo bem? Eu aluno de Front-end na Alura e estou feliz de te ver por aqui.
       </p>
